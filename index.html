@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                   
+                    <li><a href="#" onclick="openModal('courses')">Cursos</a></li>
+                    <li><a href="#" onclick="openModal('medals')">Conquistas</a></li>
+                </ul>
+            </nav>
+            <h1>Julia Martinez</h1>
+        
+            <p>Email: jumn.martinez29@gmail.com | Telefone: (11) 97590-4634</p>
+            
+        </header>
+
+        <section class="section">
+            <h2>Sobre mim</h2>
+            <div class="job">
+                <ul>
+                    <li>Tenho 16 anos e gostaria de iniciar na área de programação. Busco oportunidades para adquirir experiência prática e desenvolver habilidades profissionais. Estou entusiasmada em entrar no mercado de trabalho e estou comprometida em aprender sobre programação, pois entendo que é isso que quero desenvolver como profissão.
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="section">
+            <h2>Educação</h2>
+            <div class="education">
+                <li>Cursando o Segundo do Ensino Médio no Colégio Aventista</li>
+    
+               
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Já tive contato</h2>
+            <ul class="skills">
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>GitHub</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Modais -->
+    
+
+    <div id="courses" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('courses')">&times;</span>
+            <h2>Cursos</h2>
+            <li>Curso Coding completo de Programação Online na plataforma Byju’s; </li>
+            <li>Curso completo de Inglês pelo método Kumon; </li>
+            <li>Curso Conceitos Empresariais pela rede CEBRAC; </li>
+            <li>Curso de Empreendedorismo pelo Colégio Adventista; </li>
+        </div>
+    </div>
+
+
+    </div>
+
+    <div id="medals" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('medals')">&times;</span>
+            <h2>Conquistas</h2>
+            <li>Medalha de Prata na Olimpíada de matemática Canguru Brasil, em 2019; </li>
+            <li>Medalha de Prata de aluno adiantado em inglês pela rede Kumon, em 2021;</li>
+            <li>Medalha de Ouro de aluno adiantado do ano escolar em inglês na rede Kumon, nos anos 2022 e 2023; </li>
+            <li>Medalha de Ouro no concurso Bom de Bíblia pela rede Adventista, em 2022; </li>
+            <li>Troféu da Liga L ( 3 anos adiantada do ano escolar) em inglês na rede Kumon, em 2023;</li>
+            <li>Aluna com melhor desempenho escolar do primeiro ano ensino médio em 2023;</li>
+            <li>Aluna com melhor desempenho escolar entre todas as séries do Colégio Adventista de Campo Mourão no primeiro bimestre 2024;</li>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
